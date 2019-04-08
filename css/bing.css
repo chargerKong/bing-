@@ -1,0 +1,147 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.clear{
+	clear: both;
+}
+body{
+	background: #FBF7F7 url(../images/1.jpg) no-repeat;
+	
+}
+nav{
+	border-radius: 10px;
+	/*border: 2px solid yellow;*/
+	padding: 10px 40px;
+}
+nav .left{
+	float: left;
+	/*border: 2px solid red;*/
+}
+nav .right{
+	float: right;
+	margin:3px 0px;
+	/*border: 2px solid red;*/
+}
+
+ul li{
+	list-style:none;
+	display:inline-block;
+	margin:3px 15px;
+	color: rgb(210,210,210);
+	font-size: 13px;
+}
+ a{
+	text-decoration:none;
+	
+}
+
+a:link{
+	color: rgb(210,210,210);
+}
+a:hover{
+	color:#FFFFFF;
+}
+
+.splitline{
+	font-size: 12px;
+	color: rgb(210,210,210);
+	margin: 10px;
+}
+article{
+	height: 580px;
+	position: relative;
+}
+.searchBox{
+	width:700px;
+	/*border: 2px solid blue;*/
+	position: relative;left:100px;top: 72px;
+}
+
+.searchBox .logo{
+	float: left;
+}
+
+.searchBox input.searchInp{
+	float: left;
+	margin: 5px 0px 5px 0px;
+	height: 40px;
+	width: 500px;
+	font-size: 20px;
+}
+.searchBox input.searchsub{
+	background: url(../images/hpc18.png) rgb(12,132,132) -162px -57px;
+	width: 40px;
+	height: 44px;
+	float: left;
+	margin: 5px 0px 5px 0px;
+	border: none;
+}
+
+.btus{
+	
+	/*border: 2px solid red;*/
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+}
+
+.box{
+	background: url(../images/btns.png) no-repeat;
+	width: 41px;
+	height: 41px;
+	margin: 0px 20px;	
+	/*需要记忆*/
+	cursor:pointer;
+}
+
+.share{
+	background-position: 0px 0px;
+	float: left;
+}
+.share:hover{
+	background-position: -252px 0px;	
+}
+.meau{
+	background: url(../images/ewm.png) 0px 0px no-repeat;float: left;
+}
+.meau:hover{
+	background-position: -40px 0px;	
+
+}
+
+.leftArrow{
+	background-position: 0px -83px;
+	float: left;	
+}
+.leftArrow:hover{
+	background-position: -252px -83px;
+}
+
+.rightArrow{
+	background-position: 0px -125px;
+	float: left;	
+}
+.rightArrow:hover{
+	background-position: -252px -126px;
+}
+
+.notice{
+	background-position: 0px -41px;
+	float: left;	
+}
+.notice:hover{
+	background-position: -252px -42px;
+	float: left;	
+}
+
+footer{
+	background-color:rgb(51,51,51);
+	height: 25px;
+	padding: 5px 20px;
+}
+
+.footRight{
+	/*border: 2px solid green;*/
+	float: right;
+}

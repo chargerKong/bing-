@@ -102,11 +102,11 @@ article{
 .share:hover{
 	background-position: -252px 0px;	
 }
-.meau{
-	background: url(../images/ewm.png) 0px 0px no-repeat;float: left;
+.location1{
+	background: url(../images/geolocation.png) 0px -1px no-repeat;float: left;
 }
-.meau:hover{
-	background-position: -40px 0px;	
+.location1:hover{
+	background-position: -42px -1px;	
 
 }
 
@@ -144,4 +144,24 @@ footer{
 .footRight{
 	/*border: 2px solid green;*/
 	float: right;
+}
+
+#myVideo{
+	position: absolute;
+	bottom: 85px;right: 20px;
+	/*width: 600px;*/
+	background: white;
+	padding: 5px;
+	display: none;
+}
+
+#myMap{
+	position: absolute;
+	bottom: 85px;right: 40px;
+	width: 600px;
+	height: 300px;
+	background: white;
+	padding: 5px;
+	display: none;
+
 }

@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>bing 模拟</title>
 	<link rel="stylesheet" href="css/bing.css">
-
 </head>
 <body>
 	<header>
@@ -38,13 +37,17 @@
 			</form>
 			<div class="clear"></div>
 		</div>
-		<div class="btus">
+		<div class="btus" >
 			<!-- 直接加入img,img如果太大会出框，作为背景就可以了 -->
-			<div class="box share"></div>
-			<div class="box meau"></div>
+			<div class="box share" ></div>
+			<div class="box location1" id="location1"></div>
 			<div class="box leftArrow" id="leftArrow"></div>
 			<div class="box rightArrow" id="rightArrow"></div>
-			<div class="box notice"></div>
+			<div class="box notice" id="notice"></div>
+		</div>
+		
+		<video src="video/Three generations.mp4" controls id="myVideo"></video>	
+		<img src=" " alt="" id="myMap">
 	</article>
 
 	<footer>
@@ -61,5 +64,6 @@
 		</div>
 	</footer>
 	<script src="bing.js"></script>
+
 </body>
 </html>
